@@ -3,7 +3,6 @@ import numpy as np
 import cv2
 import pyttsx3
 from flask import Flask,render_template, Response, url_for
-from requests import session
 import time
 
 app=Flask(__name__)
